@@ -13,7 +13,7 @@ export default function HomeScreen() {
       headerBackgroundColor={{ light: '#000000ff', dark: '#000000ff' }}
       headerImage={
         <Image
-          source={require('@/assets/images/mumbai-spice1.png')}
+          source={require('@/assets/images/header-img.png')}
           style={styles.homeBgrd}
         />
       }>
@@ -89,8 +89,8 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   homeBgrd: {
-    height: 400,
-    width: 2000,
+    height: 320,
+    width: 1520,
     bottom: 0,
     left: 0,
     position: 'absolute',
