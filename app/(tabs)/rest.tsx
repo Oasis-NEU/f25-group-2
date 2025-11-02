@@ -7,8 +7,6 @@ export default function TabTwoScreen() {
     <ThemedView style={styles.container}>
       <ThemedView style={styles.titleContainer}>
 
-        
-
       </ThemedView>
     </ThemedView>
   );
