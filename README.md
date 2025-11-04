@@ -1,78 +1,49 @@
-# 🌟 Oasis - Restaurant & Activity Recommendation App
+# Summary and Instructions:
 
-A simple web app to help people discover restaurants and activities in Boston!
+- All styles are in `index.css`
+- Navigation bar is defined in `App.jsx`
+- Each tab/page is a separate component in `src/pages/`
+- Add all images in the `public/` folder
+- `src/App.jsx` - Main component containing navigation and routing
+- To run: `npm install` then `npm run dev`
+- Use these resources to help yourself build the features needed:
+  - React useState: https://react.dev/reference/react/useState
+  - Array map: https://react.dev/learn/rendering-lists
+  - CSS Basics: https://developer.mozilla.org/en-US/docs/Learn/CSS
+  - JavaScript Components: https://react.dev/learn/your-first-component
+  - JavaScript ES6 Basics: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
 
-## 🚀 Getting Started
+# Working as a Group - Git Workflow:
 
-### Prerequisites
-- Node.js installed on your computer
-- A code editor (VS Code recommended)
+## Before You Start Working:
+1. Make sure you're on main: `git checkout main`
+2. Get the latest code: `git pull origin main`
+3. Create your own branch: `git checkout -b name-feature`
+   - Example: `git checkout -b rim-restaurants-page`
 
-### Installation
-1. Open terminal in this project folder
-2. Run: `npm install`
-3. Run: `npm run dev`
-4. Open your browser to `http://localhost:5174`
+## While You're Working:
+1. Make your changes to the code
+2. Save often and test that it works locally
+3. When you reach a good stopping point, save your work:
+   ```
+   git add .
+   git commit -m "describe what you did"
+   ```
+   - Example: `git commit -m "added restaurant cards with images"`
 
-## 📁 Project Structure
+## When You're Done:
+1. Push your branch to GitHub: `git push origin your-branch-name`
+2. Go to the GitHub repo in your browser
+3. You'll see a yellow box saying "Compare & pull request" - click it
+4. Write a description of what you did
+5. Click "Create pull request"
+7. If there's any conflicts fix it and click "Merge pull request"
 
-```
-oasis-group2/
-├── public/              # Images and static files
-│   ├── background.png   # Geometric pattern background
-│   └── arcade-contact.png # Contact page arcade machine
-├── src/
-│   ├── pages/           # Different pages of the website
-│   │   ├── Home.jsx         # Homepage with food image
-│   │   ├── Restaurants.jsx  # Restaurant search page ⚠️ BUILD THIS
-│   │   ├── Activities.jsx   # Activities search page ⚠️ BUILD THIS
-│   │   └── Contact.jsx      # Contact page with arcade
-│   ├── App.jsx          # Main app (has navbar and routing)
-│   ├── main.jsx         # Starting point
-│   └── index.css        # ALL styles are here
-└── index.html           # Main HTML file
-```
+## If Someone Else Changed the Same Files:
+1. Go to your branch: `git checkout your-branch-name`
+2. Get the latest main: `git pull origin main`
+3. Fix any conflicts (the parts marked with `<<<<<<<` and `>>>>>>>`)
+4. Save the fixed files: `git add .`
+5. Commit: `git commit -m "fixed conflicts"`
+6. Push again: `git push origin your-branch-name`
 
-## 🎯 What You Need to Build
-
-### For Restaurants.jsx and Activities.jsx:
-1. Create cards to display items (restaurants or activities)
-2. Make the search bar work to filter items
-3. Add images, names, and tags to each card
-4. Style the cards using CSS from `index.css`
-
-### Tips:
-- Look at how the navbar buttons are styled in `index.css` (`.nav-links a`)
-- Use the `.card` and `.card-grid` classes already in the CSS
-- Store your data in an array with useState
-- Use `.map()` to display multiple cards
-
-## 🎨 Current Pages
-
-✅ **Home** - Hero image with food  
-⚠️ **Restaurants** - Search bar only (you add the rest!)  
-⚠️ **Activities** - Search bar only (you add the rest!)  
-✅ **Contact** - Arcade machine image
-
-## 📚 Resources
-
-- React useState: https://react.dev/reference/react/useState
-- Array map: https://react.dev/learn/rendering-lists
-- CSS Basics: https://developer.mozilla.org/en-US/docs/Learn/CSS
-
-## 🐛 Common Issues
-
-**Port already in use?**
-- Kill the process or use a different port
-
-**Changes not showing?**
-- Save your files
-- Check browser console for errors
-
-**npm install fails?**
-- Delete `node_modules` folder
-- Run `npm install` again
-
-## 💡 Need Help?
-
-Check `PROJECT_GUIDE.md` for detailed explanations of every file!
