@@ -10,11 +10,14 @@ function Contact() {
           src="/arcade-contact.png" 
           alt="Arcade Contact" 
           style={{ 
-            width: '150%', 
-            height: '200%'
+            width: '170%', 
+            height: '700%'
           }}
         />
-        < a href="mailto:pimmareddy5@gmail.com" class="overlay-button">Click Here to Contact Us</a>
+        <a href="mailto:pimmareddy5@gmail.com">
+        < button class="overlay-button">Click Here to Contact Us
+        </button>
+        </a>
       </div>
     </div>
   )
