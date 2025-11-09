@@ -2,39 +2,75 @@ import React from 'react';
 
 function Home() {
   return (
-    <>
-      {/* image section */}
-      <div style={{ 
-        position: 'relative',
-        width: '100vw',
-        height: '250px',
-        overflow: 'hidden',
-        margin: 0,
-        padding: 0
-      }}>
+      <>
+        {/* image section */}
+        <div style={{ 
+          position: 'relative',
+          width: '100vw',
+          height: '250px',
+          overflow: 'hidden',
+          margin: 0,
+          padding: 0
+        }}>
+          <img
+            src="/header.png"
+            alt="Header Image"
+            style={{
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+              display: 'block'
+            }}
+          />
+          
+          {/* Dark overlay/tint on the image */}
+          <div style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundColor: 'rgba(0, 0, 0, 0)'
+          }}></div>
+        </div>
+        {/* Text below image */}
+        <h1 style={{ 
+          color: '#ffffffb6', 
+          fontSize: '1rem', 
+          marginBottom: '2rem', 
+          textAlign: 'center',
+          font: 'droid-',
+        }}>
+          Unsure what to do on your night out? Tired of doing the same activity? Eating at the same place? 
+        </h1>
+        {/* Secondary image on top of the background */}
         <img
-          src="/header.png"
-          alt="Header Image"
+          src="/logo.png"
+          alt="logo"
           style={{
-            width: '100%',
-            height: '100%',
-            objectFit: 'cover',
-            display: 'block'
+            position: 'absolute',
+            top: '50%',
+            left: '80%',
+            transform: 'translate(-50%, -50%)',
+            width: '200px',
+            height: '200px',
+            objectFit: 'contain'
           }}
-        />
-        
-        {/* Dark overlay/tint on the image */}
-        <div style={{
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          right: 0,
-          bottom: 0,
-          backgroundColor: 'rgba(0, 0, 0, 0)'
-        }}></div>
-      </div>
-      
-    </>
+        ></img>
+        <img
+          src="/instructions.png"
+          alt="instructions"
+          style={{
+            position: 'absolute',
+            top: '50%',
+            left: '80%',
+            transform: 'translate(-50%, -50%)',
+            width: '200px',
+            height: '200px',
+            objectFit: 'contain'
+          }}
+        ></img>
+      </>
   );
 }
 
