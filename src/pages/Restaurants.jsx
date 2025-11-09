@@ -6,7 +6,7 @@ const activities = [
     location: "251 Massachusetts Ave, Boston, MA 02115",
     price: "$10-$20 per person",
     category: "Indian",
-    image: "",
+    image: "food-2.jpg",
     description: "Experience authentic Indian flavors at Mumbai Spice, where traditional spices and modern culinary techniques come together to create a memorable dining experience.",
   },
   {
@@ -14,7 +14,7 @@ const activities = [
     location: "Curry Student Center",
     price: "$15-$25 per person",
     category: "Indian",
-    image: "",
+    image: "food3.jpg",
     description: "Savor the vibrant tastes of India at Choolah, offering a contemporary twist on classic dishes in a lively atmosphere.",
   },
   {
@@ -22,7 +22,7 @@ const activities = [
     location: "329 Huntington Ave, Boston, MA 02115",
     price: "$10-$20 per person",
     category: "Mexican",
-    image: "",
+    image: "food1.jpg",
     description: "Indulge in the bold and spicy flavors of Mexico at Mamacitas, where traditional recipes are served with a modern flair.",
   },
   {
@@ -30,7 +30,7 @@ const activities = [
     location: "305 Huntington Ave, Boston, MA 02115",
     price: "$10$-20$ per person",
     category: "Mediterranean",
-    image: "",
+    image: "food4.jpeg",
     description: "Discover the fresh and vibrant tastes of the Mediterranean at Gyroscope, featuring a menu inspired by the coastal regions of Greece, Turkey, and beyond.",
   },
   {
@@ -38,7 +38,7 @@ const activities = [
     location: "Curry Student Center",
     price: "$10-$20 per person",
     category: "American",
-    image: "",
+    image: "food5.avif",
     description: "Enjoy classic American fast food with a Southern twist at Popeyes, known for its flavorful fried chicken and signature sides.",
   },
   {
@@ -46,7 +46,7 @@ const activities = [
     location: "289 Huntington Ave, Boston, MA 02115",
     price: "$10-$20 per person",
     category: "American",
-    image: "",
+    image: "food6.jpg",
     description: "Relax and unwind at Panera Bread, offering a variety of freshly baked goods, sandwiches, and salads in a cozy café setting.",
   },
 ];
