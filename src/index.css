@@ -34,7 +34,7 @@ body {
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -224,6 +224,25 @@ body {
   padding: 4rem 2rem;
 }
 
+.overlay-button{
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  font-family: 'Droid Sans', monospace;
+  font-weight: bold;
+  position: absolute;
+  top: 630px;
+  left: 795px;
+  background-color: #effa83;
+  color: #8369f3;
+  border-radius: 5px;
+  text-shadow: 
+        0 0 7px #fff,  
+        0 0 10px #fff, 
+        0 0 25px #937ef1,  
+        0 0 42px rgba(131, 105, 243, 0.7), 
+        0 0 82px rgba(131, 105, 243, 0.5);
+}
+
 .arcade-machine {
   max-width: 600px;
   margin: 2rem auto;
@@ -231,6 +250,8 @@ body {
   padding: 2rem;
   border-radius: 15px;
   border: 8px solid #00ffff;
+  top: 630px;
+  left: 900px;
 }
 
 .arcade-screen {
