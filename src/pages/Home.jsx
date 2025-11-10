@@ -36,14 +36,19 @@ function Home() {
         {/* Text below image */}
         <h1 style={{ 
           color: '#ffffffb6', 
-          fontSize: '1rem', 
-          marginBottom: '2rem', 
-          textAlign: 'center',
-          font: 'droid-',
+          position: 'absolute',
+          fontSize: '1.5rem', 
+          top: '350px',
+          right: '150px',
+          // marginBottom: '2rem', 
+          // textAlign: 'right',
+          fontFamily: 'sans-serif',
         }}>
-          Unsure what to do on your night out? Tired of doing the same activity? Eating at the same place? 
+          Unsure what to do on your night out?<br />
+          Tired of doing the same activity?<br />
+          Eating at the same place?
         </h1>
-        {/* Secondary image on top of the background */}
+        {/* Secondary image on top of the background
         <img
           src="/logo.png"
           alt="logo"
@@ -56,17 +61,17 @@ function Home() {
             height: '200px',
             objectFit: 'contain'
           }}
-        ></img>
+        ></img> */}
         <img
           src="/instructions.png"
           alt="instructions"
           style={{
             position: 'absolute',
-            top: '50%',
-            left: '80%',
+            top: '80%',
+            left: '30%',
             transform: 'translate(-50%, -50%)',
-            width: '200px',
-            height: '200px',
+            width: '800px',
+            height: '800px',
             objectFit: 'contain'
           }}
         ></img>
